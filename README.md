@@ -46,6 +46,7 @@ data-governance-cloud-foundations/
 │   └── Caso prático simulando um problema real de empresa
 │
 └── README.md
+
 🧠 Conceitos Trabalhados
 
 Governança de Dados na prática
@@ -62,6 +63,7 @@ Compliance regulatório (LGPD / GDPR)
 
 Integração Governança + Cloud + Infraestrutura
 
+
 🛠️ Ferramentas Utilizadas
 
 Google Sheets / Excel — inventário e classificação de dados
@@ -73,6 +75,7 @@ Google Docs / Markdown — políticas e documentação
 Conceitos de Linux, Cloud e Segurança — aplicados de forma prática
 
 GitHub — versionamento e documentação do projeto
+
 
 🧪 Caso Real Simulado
 
@@ -97,6 +100,7 @@ Garantir conformidade com LGPD/GDPR
 📂 Veja detalhes na pasta:
 05-Caso-real-que-eu-resolveria/
 
+
 🚀 Próximos Passos
 
 Evoluir o projeto com automações
@@ -104,6 +108,7 @@ Evoluir o projeto com automações
 Integrar exemplos técnicos (logs, controles de acesso, cloud)
 
 Expandir para novos cenários de governança
+
 
 👤 Autor
 
