@@ -1,118 +1,68 @@
-📊 Data Governance & Cloud Foundations
-📌 Visão Geral
+# 📊 Data Governance & Cloud Foundations
 
-Este repositório documenta um projeto prático de Governança de Dados aplicada a ambientes Cloud e Infraestrutura, desenvolvido como parte de um plano estruturado de transição de carreira para a área de Governança de Dados, Cloud e Segurança da Informação.
+![Governance](https://img.shields.io/badge/Governance-Data%20Life%20Cycle-blue) ![Compliance](https://img.shields.io/badge/Compliance-LGPD%20%7C%20GDPR-green) ![Cloud](https://img.shields.io/badge/Cloud-AWS%20Foundations-orange)
 
-O projeto foi pensado para refletir cenários reais de empresas e startups, com foco em:
+## 📌 Visão Geral / Overview
 
-Dados pessoais e sensíveis
+**PT-BR:** Este repositório documenta um projeto prático de **Governança de Dados** aplicada a ambientes Cloud e Infraestrutura. O projeto simula cenários reais de empresas e startups, unindo conformidade legal (LGPD/GDPR) com segurança técnica.
 
-Conformidade com LGPD e GDPR
+**EN:** *This repository documents a practical Data Governance project applied to Cloud and Infrastructure environments. It simulates real-world startup scenarios, merging legal compliance (LGPD/GDPR) with technical security.*
 
-Integração entre Governança, TI, Cloud e Segurança
+---
 
-Todo o trabalho foi desenvolvido com abordagem didática, prática e profissional, simulando atividades reais do dia a dia de um Governante de Dados com perfil técnico.
+## 🎯 Objetivos do Projeto / Project Goals
 
-🎯 Objetivo do Projeto
+* **Inventário Estruturado:** Criação de mapeamento de dados com classificação de sensibilidade.
+* **Papéis e Responsabilidades:** Definição de *Data Owners, Stewards e Admins*.
+* **Data Lifecycle:** Modelagem do ciclo de vida do dado (do nascimento ao descarte).
+* **Compliance Framework:** Aplicação de checklists práticos de LGPD e GDPR.
+* **Risk Mitigation:** Demonstração de como a governança resolve problemas reais de vazamento e acesso indevido.
 
-Criar um inventário estruturado de dados
+---
 
-Definir papéis e responsabilidades (Owner, Steward, Admin)
+## 🏗️ Estrutura do Repositório / Repository Structure
 
-Documentar políticas de governança
-
-Modelar o ciclo de vida dos dados
-
-Aplicar checklists de conformidade LGPD/GDPR
-
-Demonstrar, através de um caso real, como a governança resolve riscos e problemas concretos
-
-Estrutura do Repositório
+```text
 data-governance-cloud-foundations/
-│
-├── 01-inventario-dados/
-│   └── Inventário de dados com classificação, riscos e papéis
-│
-├── 02-fluxo-dados/
-│   └── Fluxo do ciclo de vida dos dados (do nascimento ao descarte)
-│
-├── 03-politicas-governanca/
-│   └── Políticas de classificação, acesso e ciclo de vida
-│
-├── 04-compliance-lgpd-gdpr/
-│   └── Checklist de conformidade legal (LGPD / GDPR)
-│
-├── 05-Caso-real-que-eu-resolveria/
-│   └── Caso prático simulando um problema real de empresa
-│
-└── README.md
+├── 01-inventario-dados/          # Classificação, riscos e papéis (Owners/Stewards)
+├── 02-fluxo-dados/               # Mapeamento do ciclo de vida (Data Flow)
+├── 03-politicas-governanca/      # Políticas de acesso e classificação
+├── 04-compliance-lgpd-gdpr/      # Checklists de conformidade legal
+└── 05-caso-real-simulado/        # Resolução de problema real de empresa (Business Case)
+```
+---
 
-🧠 Conceitos Trabalhados
+## 🧠 Conceitos Trabalhados / Core Concepts
 
-Governança de Dados na prática
+* **Data Classification:** Público, Interno, Confidencial e Sensível.
+* **Princípio do Menor Privilégio:** Controle de acesso baseado na necessidade de conhecimento.
+* **Integrity & Availability:** Garantia de que o dado esteja seguro e disponível.
+* **Cloud Integration:** Governança aplicada diretamente à infraestrutura escalável.
 
-Classificação de dados (público, interno, confidencial, sensível)
+---
 
-Papéis organizacionais (Data Owner, Data Steward, Data Admin)
+## 🛠️ Ferramentas Utilizadas / Tech Stack
 
-Ciclo de vida da informação
+* **Documentation:** Markdown / Google Docs
+* **Diagrams:** Draw.io (Fluxos de dados e Arquitetura)
+* **Organization:** Google Sheets (Inventário e Matriz de Riscos)
+* **Version Control:** GitHub
 
-Princípio do menor privilégio
+---
 
-Compliance regulatório (LGPD / GDPR)
+## 🧪 Caso Real Simulado / Real-World Case Study
 
-Integração Governança + Cloud + Infraestrutura
+O projeto foca em uma empresa fictícia que coleta dados via web e armazena em nuvem. A governança é aplicada para:
 
+1.  **Mapear** responsáveis por cada bucket/banco de dados.
+2.  **Definir** políticas de retenção para evitar custos desnecessários e riscos legais.
+3.  **Garantir** que apenas perfis autorizados acessem dados sensíveis.
 
-🛠️ Ferramentas Utilizadas
+👉 **Veja os detalhes na pasta:** `[05-caso-real-simulado/]`
 
-Google Sheets / Excel — inventário e classificação de dados
+---
 
-Draw.io — fluxos de dados e ciclo de vida
+## 🚀 Próximos Passos / Roadmap
 
-Google Docs / Markdown — políticas e documentação
-
-Conceitos de Linux, Cloud e Segurança — aplicados de forma prática
-
-GitHub — versionamento e documentação do projeto
-
-
-🧪 Caso Real Simulado
-
-O projeto inclui um caso prático realista, no qual uma empresa fictícia:
-
-Coleta dados pessoais de clientes via site
-
-Armazena essas informações em ambiente cloud
-
-Possui riscos de vazamento, acesso indevido e não conformidade legal
-
-A governança é aplicada para:
-
-Mapear dados e responsáveis
-
-Definir políticas claras
-
-Reduzir riscos legais e operacionais
-
-Garantir conformidade com LGPD/GDPR
-
-📂 Veja detalhes na pasta:
-05-Caso-real-que-eu-resolveria/
-
-
-🚀 Próximos Passos
-
-Evoluir o projeto com automações
-
-Integrar exemplos técnicos (logs, controles de acesso, cloud)
-
-Expandir para novos cenários de governança
-
-
-👤 Autor
-
-Igor Pantoja
-Governança de Dados | Cloud | Infraestrutura | Segurança da Informação
-
-📌 Projeto desenvolvido para fins educacionais e de portfólio profissional.
+- [ ] Integrar logs de auditoria (AWS CloudWatch/CloudTrail).
+- [ ] Implementar automação de backup com políticas de retenção via código.
